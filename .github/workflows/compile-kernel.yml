@@ -78,10 +78,7 @@ on:
         description: "Set the kernel custom signature"
         required: false
         default: "-ophub"
-        type: choice
-        options:
-          - -ophub
-          - -yourname
+        type: string
 
 env:
   TZ: Etc/UTC
